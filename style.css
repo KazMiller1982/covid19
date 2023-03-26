@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 10px; /* adjust margin as needed */
+}
+
+.navbar {
+  background-color: #333;
+  margin-top: 10px; /* adjust margin as needed */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px; /* adjust margin as needed */
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Style the main element */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 80vh;
+}
+
+/* Style the headings */
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraphs */
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the copyright text */
+p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Style the contact form link */
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #0072c6;
+}
+
+/* Style the active link */
+a.active {
+  font-weight: bold;
+  color: #0072c6;
+  text-decoration: none;
+}
+
+a.active:hover {
+  color: #005ea1;
+}
+
+/* Style the form section */
+.form-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Style the form inputs */
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 150px;
+}
+
+/* Style the form button */
+button[type='submit'] {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #005ea1;
+}
+
+/* Style the flex container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the box */
+.box {
+  flex-basis: calc(33.33% - 20px);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the box heading */
+.box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Style the box content */
+.box p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0072c6;
+  margin-bottom: 0;
+}
+
+.advice, .guidelines {
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.advice h2, .guidelines h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.advice p, .guidelines p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.advice ul, .guidelines ul {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.advice li, .guidelines li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .advice h2, .guidelines h2 {
+    font-size: 24px;
+  }
+
+  .advice p, .guidelines p {
+    font-size: 16px;
+  }
+
+  .advice ul, .guidelines ul {
+    font-size: 16px;
+  }
+}
